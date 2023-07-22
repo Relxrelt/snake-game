@@ -1,0 +1,44 @@
+.container {
+  width: 800px;
+  border: solid;
+  padding: 20px;
+  height: 650px;
+  display: inline-block;
+}
+
+#score {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 80px;
+}
+#game-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  gap: 5px; /* Adjust the gap value as desired */
+  width: 500px; /* Adjust the width of the container as desired */
+  height: 500px; /* Adjust the height of the container as desired */
+  margin-left: 150px;
+}
+
+.tile {
+  background-color: rgb(0, 0, 0); /* Add any styles you want for the tile */
+}
+
+.E {
+  background-color: lightgray;
+}
+
+.S {
+  background-color: gold;
+}
+
+.F {
+  background-color: red;
+}
